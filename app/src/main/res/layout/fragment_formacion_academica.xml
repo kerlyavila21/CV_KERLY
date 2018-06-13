@@ -40,11 +40,11 @@
 
         <TextView
             android:id="@+id/textView19"
-            android:layout_width="323dp"
-            android:layout_height="28dp"
+            android:layout_width="311dp"
+            android:layout_height="22dp"
             android:layout_marginStart="16dp"
             android:layout_marginTop="8dp"
-            android:text="- Unidad Educativa Brigadires del Saber"
+            android:text="- Unidad Educativa Brigadieres del Saber"
             android:textAlignment="center"
             android:textColor="@android:color/background_dark"
             android:textSize="14sp"
@@ -67,8 +67,8 @@
 
         <TextView
             android:id="@+id/textView21"
-            android:layout_width="326dp"
-            android:layout_height="32dp"
+            android:layout_width="325dp"
+            android:layout_height="51dp"
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
             android:text="- Unidad Educativa Académica Naval Almirante Illingworth"
