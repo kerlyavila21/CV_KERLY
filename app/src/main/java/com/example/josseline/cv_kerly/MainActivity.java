@@ -21,7 +21,8 @@ public class MainActivity extends AppCompatActivity
         FormacionAcademica.OnFragmentInteractionListener,
         ExperienciaLaboral.OnFragmentInteractionListener,
         Referencias.OnFragmentInteractionListener,
-        CursosRealizados.OnFragmentInteractionListener
+        CursosRealizados.OnFragmentInteractionListener,
+        Conocimientos.OnFragmentInteractionListener
 {
 
     @Override
@@ -119,7 +120,8 @@ public class MainActivity extends AppCompatActivity
             fragment = new CursosRealizados();
             FragmentTransaction = true;
         } else if (id == R.id.nav_send) {
-
+            fragment = new Conocimientos();
+            FragmentTransaction = true;
         }
 
 
